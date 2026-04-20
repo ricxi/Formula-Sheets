@@ -6,9 +6,9 @@ MATH 210 Linear Algebra
 The dot product can be written in two ways for vectors $\vec{u} = (u_1, u_2, \dots, u_n)$ and $\vec{v} = (v_1, v_2, \dots, v_n)$ :
   
 Method 1: 
-$$
+```math
 \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + \cdots + u_nv_n
-$$
+```
   
 
 Method 2:
