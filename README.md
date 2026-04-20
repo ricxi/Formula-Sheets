@@ -20,16 +20,18 @@ Method 2:
 
 ## Projection
 The projection of $\vec{u}$ onto $\vec{v}$ is
+
+```math
+\mathrm{proj}_{\vec{v}}\,\vec{u}
+=
+\left(\frac{\vec{u}\cdot\vec{v}}{\|\vec{v}\|^2}\right)\vec{v}
+```
+Equivalently,
 ```math
 \mathrm{proj}_{\vec{v}}\,\vec{u}
 =
 \left(\frac{\vec{u}\cdot\vec{v}}{\vec{v}\cdot\vec{v}}\right)\vec{v}
 ```
-Equivalently,
-```math
-\operatorname{proj}_{\vec{v}} \vec{u} = \left( \frac{\vec{u} \cdot \vec{v}}{\vec{v} \cdot \vec{v}} \right) \vec{v}
-```
-
 
 ## Unit 5
 - Component Form
