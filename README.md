@@ -1,7 +1,8 @@
-# Formula Sheet
-Formulas and Notes
-
-## Formulas
+# Formulas
+ - Dot Product
+ - Projection
+ - Cross Product ($\mathbb{R}^3$)
+ - Cross Product Magnitude ($\mathbb{R}^3$)
 
 ### Dot Product
 The dot product can be written in two ways for vectors $\vec{u} = (u_1, u_2, \dots, u_n)$ and $\vec{v} = (v_1, v_2, \dots, v_n)$ :
@@ -93,7 +94,11 @@ Geometric Version:
 ```math
 \|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
 ```
-## Notes
+
+
+
+
+# Notes
 - Unit 5
 - Unit 6
 
