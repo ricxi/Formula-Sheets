@@ -3,6 +3,8 @@
  - Projection
  - Cross Product ($\mathbb{R}^3$)
  - Cross Product Magnitude ($\mathbb{R}^3$)
+ - Cross Product Algebraic Properties (to be added)
+ - Scalar Triple Product
 
 ## Dot Product
 The dot product can be written in two ways for vectors $\vec{u} = (u_1, u_2, \dots, u_n)$ and $\vec{v} = (v_1, v_2, \dots, v_n)$ :
@@ -95,6 +97,11 @@ Geometric Version:
 \|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
 ```
 
+## Cross Product Algebraic Properties (to be added)
+
+## Scalar Triple Product
+
+
 
 
 
@@ -126,7 +133,7 @@ magnitude of 1. Get the magnitudes, and then get the dot products.
 - The result of the **cross product** is a vector.
 - Area of Triangle with cross product
 - Area of parallelogram with cross product
-    - The magnitude of the cross product equals the area of the parallelogram that the initial two vectors span.
+    - The magnitude of the cross product equals the area of the parallelogram that the initial two vectors span: $\|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta$
 
 ### 6.4
 - **Triple Scalar Product** is used to find if three vectors are coplanar. 
