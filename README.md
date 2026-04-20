@@ -118,28 +118,9 @@ magnitude of 1. Get the magnitudes, and then get the dot products.
 - The result of the **cross product** is a vector.
 - Area of Triangle with cross product
 - Area of parallelogram with cross product
+    - The magnitude of the cross product equals the area of the parallelogram that the initial two vectors span.
 
 ### 6.4
 - **Triple Scalar Product** is used to find if three vectors are coplanar. 
 - If the triple scalar product is 0, then the threee vectors are coplanar
 - Volume of parallelipiped with Triple Scalar Product
-
-## Formulas & Examples
-### Dot Product
-For vectors $\vec{u} = (u_1, u_2, \dots, u_n)$ and $\vec{v} = (v_1, v_2, \dots, v_n)$, the dot product is
-
-$$
-\vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + \cdots + u_nv_n
-$$
-
-It can also be written as
-
-$$
-\vec{u} \cdot \vec{v} = \|\vec{u}\| \ \|\vec{v}\| \cos\theta
-$$
-
-Example:
-
-$$
-(1,2,3)\cdot(4,5,6)=1\cdot4+2\cdot5+3\cdot6=32
-$$
