@@ -33,6 +33,57 @@ Equivalently,
 \left(\frac{\vec{u}\cdot\vec{v}}{\vec{v}\cdot\vec{v}}\right)\vec{v}
 ```
 
+## Cross Product in $\mathbb{R}^3$
+For vectors $\vec{u} = (u_1, u_2, u_3)$ and $\vec{v} = (v_1, v_2, v_3)$ in $\mathbb{R}^3$, the cross product is
+
+```math
+\vec{u} \times \vec{v}
+=
+\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+u_1 & u_2 & u_3 \\
+v_1 & v_2 & v_3
+\end{vmatrix}
+```
+
+```math
+\vec{u} \times \vec{v}
+=
+\begin{vmatrix}
+u_2 & u_3 \\
+v_2 & v_3
+\end{vmatrix}
+\hat{i}
+-
+\begin{vmatrix}
+u_1 & u_3 \\
+v_1 & v_3
+\end{vmatrix}
+\hat{j}
++
+\begin{vmatrix}
+u_1 & u_2 \\
+v_1 & v_2
+\end{vmatrix}
+\hat{k}
+```
+
+```math
+\vec{u} \times \vec{v}
+=
+\bigl(u_2v_3 - u_3v_2,\; u_3v_1 - u_1v_3,\; u_1v_2 - u_2v_1\bigr)
+```
+
+## Cross Product's Magnitude in $\mathbb{R}^3$ 
+For $\vec{u}, \vec{v} \in \mathbb{R}^3$, this is the magnitude of the cross product, where $\theta$ is the angle between the vectors.
+```math
+\|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
+```
+```math
+\|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
+```
+
+
 ## Unit 5
 - Component Form
 - Linear Combinations?
