@@ -3,7 +3,7 @@
  - Projection
  - Cross Product ($\mathbb{R}^3$)
  - Cross Product Magnitude ($\mathbb{R}^3$)
- - Cross Product Algebraic Properties (to be added)
+ - Cross Product Algebraic Properties
  - Scalar Triple Product
 
 ## Dot Product
@@ -97,7 +97,16 @@ Geometric Version:
 \|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
 ```
 
-## Cross Product Algebraic Properties (to be added)
+## Cross Product Algebraic Properties
+If $\vec{u}$, $\vec{v}$, and $\vec{w}$ are vectors in a 3-dimensional space and $k$ is a scalar, then the following properties are true:
+
+1) $\vec{u} \times \vec{v} = -\,\vec{v} \times \vec{u}$
+2) $\vec{u} \times (\vec{v} + \vec{w}) = \vec{u} \times \vec{v} + \vec{u} \times \vec{w}$
+3) $k(\vec{u} \times \vec{v}) = (k\vec{u}) \times \vec{v} = \vec{u} \times (k\vec{v})$
+4) $\vec{u} \times \vec{0} = \vec{0} \times \vec{u} = \vec{0}$
+5) $\vec{u} \times \vec{u} = \vec{0}$
+6) $\vec{u} \cdot (\vec{v} \times \vec{w}) = (\vec{u} \times \vec{v}) \cdot \vec{w}$
+
 
 ## Scalar Triple Product
 
