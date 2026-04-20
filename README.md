@@ -131,9 +131,18 @@ magnitude of 1. Get the magnitudes, and then get the dot products.
 ### 6.3
 - For vectors in R3, the **cross product** provides a systematic way to determine a vector that is mutually orthogonal to two other vectors.
 - The result of the **cross product** is a vector.
-- Area of Triangle with cross product
-- Area of parallelogram with cross product
-    - The magnitude of the cross product equals the area of the parallelogram that the initial two vectors span: $\|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta$
+- Area of Parallelogram (with cross product):
+    1. Calculate the vectors if given vertices.
+    2. Get the cross product of the two vectors (determinate formula).
+    3. Calculate the norm (magnitude) of the cross product.
+    - The magnitude of the cross product equals the area of the parallelogram that the two vectors span: $\|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta$
+- Area of Triangle (with cross product):
+    1. Calculate the vectors if given vertices.
+    2. Get the cross product of the two vectors (determinate formula).
+    3. Calculate the norm (magnitude) of the cross product.
+    4. Divide the magnitude by 2 to get the area of the triangle.
+    - Same as calculating the area of the parallelogram, but you divide by 2 at the end.
+
 
 ### 6.4
 - **Triple Scalar Product** is used to find if three vectors are coplanar. 
