@@ -1,5 +1,5 @@
-# Formula-Sheet
-MATH 210 Linear Algebra
+# Formula Sheet
+Formulas and Notes
 
 ## Formulas
 ### Dot Product
