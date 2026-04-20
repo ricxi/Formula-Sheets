@@ -9,25 +9,24 @@ Method 1:
 ```math
 \vec{u} \cdot \vec{v} = u_1v_1 + u_2v_2 + \cdots + u_nv_n
 ```
-  
 
 Method 2:
-$$
+```math
 \vec{u} \cdot \vec{v} = \|\vec{u}\| \, \|\vec{v}\| \cos\theta
-$$
-$$
+```
+```math
 \cos\theta = \frac{\vec{u} \cdot \vec{v}}{\|\vec{u}\| \, \|\vec{v}\|}
-$$
+```
 
 ## Projection
 The projection of $\vec{u}$ onto $\vec{v}$ is
-$$
+```math
 \operatorname{proj}_{\vec{v}} \vec{u} = \left( \frac{\vec{u} \cdot \vec{v}}{\|\vec{v}\|^2} \right) \vec{v}
-$$
+```
 Equivalently,
-$$
+```math
 \operatorname{proj}_{\vec{v}} \vec{u} = \left( \frac{\vec{u} \cdot \vec{v}}{\vec{v} \cdot \vec{v}} \right) \vec{v}
-$$
+```
 
 
 ## Unit 5
