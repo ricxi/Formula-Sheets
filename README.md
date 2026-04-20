@@ -77,8 +77,18 @@ v_1 & v_2
 ## Cross Product's Magnitude in $\mathbb{R}^3$ 
 For $\vec{u}, \vec{v} \in \mathbb{R}^3$, this is the magnitude of the cross product, where $\theta$ is the angle between the vectors.
 ```math
-\|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
+\|\vec{u} \times \vec{v}\|
+=
+\sqrt{
+(u_2v_3-u_3v_2)^2
++
+(u_3v_1-u_1v_3)^2
++
+(u_1v_2-u_2v_1)^2
+}
 ```
+
+Geometric Version:
 ```math
 \|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
 ```
