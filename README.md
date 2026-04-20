@@ -2,6 +2,7 @@
 Formulas and Notes
 
 ## Formulas
+
 ### Dot Product
 The dot product can be written in two ways for vectors $\vec{u} = (u_1, u_2, \dots, u_n)$ and $\vec{v} = (v_1, v_2, \dots, v_n)$ :
   
@@ -18,7 +19,7 @@ Method 2:
 \cos\theta = \frac{\vec{u} \cdot \vec{v}}{\|\vec{u}\| \, \|\vec{v}\|}
 ```
 
-## Projection
+### Projection
 The projection of $\vec{u}$ onto $\vec{v}$ is
 
 ```math
@@ -33,7 +34,7 @@ Equivalently,
 \left(\frac{\vec{u}\cdot\vec{v}}{\vec{v}\cdot\vec{v}}\right)\vec{v}
 ```
 
-## Cross Product in $\mathbb{R}^3$
+### Cross Product in $\mathbb{R}^3$
 For vectors $\vec{u} = (u_1, u_2, u_3)$ and $\vec{v} = (v_1, v_2, v_3)$ in $\mathbb{R}^3$, the cross product is
 
 ```math
@@ -74,7 +75,7 @@ v_1 & v_2
 \bigl(u_2v_3 - u_3v_2,\; u_3v_1 - u_1v_3,\; u_1v_2 - u_2v_1\bigr)
 ```
 
-## Cross Product's Magnitude in $\mathbb{R}^3$ 
+### Cross Product's Magnitude in $\mathbb{R}^3$ 
 For $\vec{u}, \vec{v} \in \mathbb{R}^3$, this is the magnitude of the cross product, where $\theta$ is the angle between the vectors.
 ```math
 \|\vec{u} \times \vec{v}\|
@@ -92,7 +93,9 @@ Geometric Version:
 ```math
 \|\vec{u} \times \vec{v}\| = \|\vec{u}\| \, \|\vec{v}\| \sin\theta
 ```
-
+## Notes
+- Unit 5
+- Unit 6
 
 ## Unit 5
 - Component Form
