@@ -135,7 +135,7 @@ $$
 It can also be written as
 
 $$
-\vec{u} \cdot \vec{v} = \|\vec{u}\| \, \|\vec{v}\| \cos\theta
+\vec{u} \cdot \vec{v} = \|\vec{u}\| \ \|\vec{v}\| \cos\theta
 $$
 
 Example:
