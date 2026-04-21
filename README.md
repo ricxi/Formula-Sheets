@@ -5,7 +5,6 @@
  - Cross Product Magnitude ($\mathbb{R}^3$)
  - Cross Product Algebraic Properties
  - Scalar Triple Product
-
 ## Dot Product
 The dot product can be written in two ways for vectors $\vec{u} = (u_1, u_2, \dots, u_n)$ and $\vec{v} = (v_1, v_2, \dots, v_n)$ :
   
@@ -100,15 +99,47 @@ Geometric Version:
 ## Cross Product Algebraic Properties
 If $\vec{u}$, $\vec{v}$, and $\vec{w}$ are vectors in a 3-dimensional space and $k$ is a scalar, then the following properties are true:
 
-1) $\vec{u} \times \vec{v} = -\,\vec{v} \times \vec{u}$
-2) $\vec{u} \times (\vec{v} + \vec{w}) = \vec{u} \times \vec{v} + \vec{u} \times \vec{w}$
+1) $\vec{u} \times \vec{v} = - (\vec{v} \times \vec{u})$
+2) $\vec{u} \times (\vec{v} + \vec{w}) = (\vec{u} \times \vec{v}) + (\vec{u} \times \vec{w})$
 3) $k(\vec{u} \times \vec{v}) = (k\vec{u}) \times \vec{v} = \vec{u} \times (k\vec{v})$
 4) $\vec{u} \times \vec{0} = \vec{0} \times \vec{u} = \vec{0}$
 5) $\vec{u} \times \vec{u} = \vec{0}$
-6) $\vec{u} \cdot (\vec{v} \times \vec{w}) = (\vec{u} \times \vec{v}) \cdot \vec{w}$
+6) $\vec{u} \cdot (\vec{v} \times \vec{w}) = (\vec{u} \times \vec{v}) \cdot \vec{w}$ 
+  
+Number 6 is related to the scalar triple product.
 
 
 ## Scalar Triple Product
+Also known as the Triple Scalar Product
+
+### Volume of a Paralelepiped formed by the vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$.
+Method 1:
+```math
+V = Ah = \|\vec{b} \times \vec{c} \| \| \vec{a} \| \| \cos\theta \| = \|\vec{a} \cdot (\vec{b} \times \vec{c}) \|
+```
+
+Method 2 (returns a scalar value):
+```math
+V 
+= 
+|\vec{a} \cdot (\vec{b} \times \vec{c})|
+=
+\begin{vmatrix}
+a_1 & a_2 & a_3 \\
+b_1 & b_2 & b_3 \\
+c_1 & c_2 & c_3
+\end{vmatrix}
+```
+Take the absolute value of the returned scalar.
+If the value return is 0, then then all three vectors are coplanar.
+
+
+
+
+
+
+
+
 
 
 
@@ -126,6 +157,7 @@ If $\vec{u}$, $\vec{v}$, and $\vec{w}$ are vectors in a 3-dimensional space and 
 ## Unit 6
 ### 6.1
 - The dot product of two vectors is a **scalar**.
+    - Sometimes called the scalar product or the Euclidean inner product
 - Two vectors are **perpendicular** to one another if the dot product is **0**.
 - **Algebraic Properties of the Dot Product** (see page 59; 60 in pdf)
 
@@ -155,5 +187,7 @@ magnitude of 1. Get the magnitudes, and then get the dot products.
 
 ### 6.4
 - **Triple Scalar Product** is used to find if three vectors are coplanar. 
-- If the triple scalar product is 0, then the threee vectors are coplanar
+- If the triple scalar product is 0, then the three vectors are coplanar
 - Volume of parallelipiped with Triple Scalar Product
+    1. Calculate the determinate (it should return a scalar)
+    2. Take the absolute value of the determinate
