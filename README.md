@@ -1,11 +1,81 @@
 # Formulas
- - Dot Product
- - Projection
- - Cross Product ($\mathbb{R}^3$)
- - Cross Product Magnitude ($\mathbb{R}^3$)
- - Cross Product Algebraic Properties
- - Scalar Triple Product
+- Matrices
+    - Determinant for 2x2 Matrix
+    - Inverse Formula for 2x2 Matrix
+    - Algebraic Properties of Matrices
+- Vectors
+    - Dot Product
+    - Projection
+    - Cross Product ($\mathbb{R}^3$)
+    - Cross Product Magnitude ($\mathbb{R}^3$)
+    - Cross Product Algebraic Properties
+    - Scalar Triple Product
+
+
+## Inverse of 2x2 Matrix
+The matrix
+```math
+A
+=
+\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix}
+```
+is invertible if and only if $ad-bc \neq 0$, in which case the inverse formula is:
+```math
+A^{-1} 
+=
+\frac{1}{ad-bc} 
+\begin{vmatrix}
+d & -b \\
+-c & a
+\end{vmatrix}
+```
+
+## Algebraic Properties of Matrices
+If $A$ is an invertible matrix, then $A^{T}$ is an invertible matrix, and:
+```math
+(A^{T})^{-1} = (A^{-1})^{T} 
+```
+
+### Properties of Transposes
+```math
+(A \pm B)^{T} = A^{T} \pm B^{T}
+```
+```math
+(cA)^{T} = cA^{T}
+```
+```math
+(AB)^{T} = B^{T}A^{T}
+```
+```math
+(A^{T})^{T} = A
+```
+
+### Properties of Inverses
+
+```math
+AA^{-1} = A^{-1}A = I
+```
+
+If $A$ and $B$ are invertible matrices of the same size, then $AB$ is invertible and:
+```math
+(AB)^{-1} = B^{-1}A^{-1}
+```
+Extended to: if $A$, $B$, and $C$ are invertible matrices of the same size, then $ABC$ is invertible and:
+```math
+(ABC)^{-1} = C^{-1}B^{-1}A^{-1}
+```
+  
+If $A$ is invertible and $n$ is a non-negative integer, then:
+- $A^{-1}$ is invertible and $(A^{-1})^{-1} = A$
+- $A^{n}$ is invertible and $(A^{n})^{-1} = A^{-n} = (A^{-1})^{n}$
+- $kA$ is invertible for any scalar $k$ different than zero, and $(kA)^{-1} = k^{-1}A^{-1}$
+
+
 ## Dot Product
+
 The dot product can be written in two ways for vectors $\vec{u} = (u_1, u_2, \dots, u_n)$ and $\vec{v} = (v_1, v_2, \dots, v_n)$ :
   
 Method 1: 
@@ -143,11 +213,20 @@ If the value return is 0, then then all three vectors are coplanar.
 
 
 
-
-
 # Notes
 - Unit 5
 - Unit 6
+
+
+## Unit 1
+- Types of Solutions for Linear Systems
+    - One unique solution (trivial)
+    - No solution (system is inconsistent)
+    - Infinitely many solutions (non-trivial; represent with parametric equations)
+
+
+## Unit X
+- A matrix is not invertible if its determinant is 0 ($ad-bc=0$)
 
 ## Unit 5
 - Component Form
