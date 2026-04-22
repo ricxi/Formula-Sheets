@@ -55,11 +55,12 @@ If $A$ is an invertible matrix, then $A^{T}$ is an invertible matrix, and:
 
 ### Properties of Inverses
 
+1. 
 ```math
 AA^{-1} = A^{-1}A = I
 ```
-
-If $A$ and $B$ are invertible matrices of the same size, then $AB$ is invertible and:
+2. If $A$ multiplies $B$ equals $I$, then $A$ and $B$ are inverses of each other.
+3. If $A$ and $B$ are invertible matrices of the same size, then $AB$ is invertible and:
 ```math
 (AB)^{-1} = B^{-1}A^{-1}
 ```
@@ -68,11 +69,35 @@ Extended to: if $A$, $B$, and $C$ are invertible matrices of the same size, then
 (ABC)^{-1} = C^{-1}B^{-1}A^{-1}
 ```
   
-If $A$ is invertible and $n$ is a non-negative integer, then:
+4. If $A$ is invertible and $n$ is a non-negative integer, then:
 - $A^{-1}$ is invertible and $(A^{-1})^{-1} = A$
 - $A^{n}$ is invertible and $(A^{n})^{-1} = A^{-n} = (A^{-1})^{n}$
 - $kA$ is invertible for any scalar $k$ different than zero, and $(kA)^{-1} = k^{-1}A^{-1}$
 
+
+### Properties of Diagonal Matrices 
+- The determinant of a diagonal matrix is the product of all the entries in the diagonal.
+1. Find the inverse of a diagonal matrix by replacing all the non-zero entries by their reciprocals.
+2. Find the power of a diagonal matrix by replacing the entries by the the corresponding power of each entry.
+
+### Properties of Symmetric Matrices 
+1. If $A$ and $B$ are symmetric matrices of the same size, and if $k$ is a scalar, then:
+    - $A^{T}$ is symmetric
+    - $A+B$ and $A-B$ are symmetric
+    - $kA$ is symmetric
+2. If $A$ is an invertible symmetric matrix, then $A^{-1}$ is symmetric.
+3. The product of a matrix and its transpose is symmetric.
+4. If $A$ is a square invertible matrix, then $AA^{T}$ and $A^{T}A$ are also invertible.
+
+### Properties of Determinants
+1. $det(kA) = k^{n}det(A)$, where $n$ is the size of the square matrix A.
+2. $det(A+B) \neq det(A)+det(B)$
+3. A square matrix is invertible if and only if $det(A) \neq 0$
+4. If $A$ and $B$ are square matrices of the same size, then $det(AB) = det(A)det(B)$
+5. If $A$ is invertible, then:
+```math
+det(A)^{-1} = \frac{1}{det(A)}
+```
 
 ## Dot Product
 
